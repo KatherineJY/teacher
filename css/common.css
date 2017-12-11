@@ -58,13 +58,36 @@ body{
 /*-----------------footers--------------------------*/
 .footer{
     width: 100vw;
-    height: 50px;
+    height: 70px;
     box-sizing: border-box;
     bottom: 0;
     position: fixed;
     background: rgba(0,106,184,0.8);
-    text-align: center;
+    display: flex;
+    padding: 0 5px;
+    justify-content: space-between;
+    align-items: center;
     font-size: 12px;
-    line-height: 1;
     color:#eee;
+}
+.hrefs{
+    width: 600px;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.hrefs-title{
+    width: 100%;
+    height: 15px;
+    font-size: 14px;
+}
+.href-item{
+    width: 25%;
+    height:13px;
+    line-height: 13px;
+    text-align: left;
+}
+.hrefs a{
+    color:inherit;
+    text-decoration: none;
 }
